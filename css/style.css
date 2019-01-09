@@ -1,0 +1,82 @@
+h2{
+  color: red;
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+}
+img{
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+a{
+  text-decoration: none;
+}
+.mapCards{
+  left: 0.5%;
+  top: 230px;
+  position: absolute;
+  width: 30%;
+  z-index: 100;
+}
+/* .hidden{
+  display: none;
+} */
+.st0{
+  opacity: 0;
+  fill: #ffffff;
+}
+/* .charlestown-toggle{
+  opacity: 0.5;
+  fill: #00ffff;
+} */
+/* #backbayCard, #beaconhillCard, #charlestownCard, #cambridgeCard, #downtownCard, #dorchesterCard, #eastbostonCard, #fenwayCard,
+#jamaicaplainCard, #leatherdistrictCard, #northendCard, #roxburyCard, #seaportCard, #southBostonCard,
+#southEndCard, #westEndCard, .clickableImage {
+display: inline;
+z-index: 100;
+}
+
+#backbayCard, #beaconhillCard, #charlestownCard, #cambridgeCard, #downtownCard, #dorchesterCard, #eastbostonCard, #fenwayCard,
+#jamaicaplainCard, #leatherdistrictCard, #northendCard, #roxburyCard, #seaportCard, #southBostonCard,
+#southEndCard, #westEndCard, .clickableImage{
+display: none;
+z-index: 100;
+} */
+
+/* #jamaicaplainCard{
+  display: inline;
+  z-index: 100;
+}
+
+#jamaicaplainCard{
+  display: none;
+  z-index: 100;
+} */
+/* #cambridgeCard{
+  display: inline;
+  z-index: 100;
+}
+#cambridgeCard{
+  display: none;
+  z-index: 100;
+} */
+/* #div1 {
+    display: inline;
+    color:blue;
+}
+
+#div2 {
+    display: none;
+    color:red;
+} */
+
+/* .display-none {
+    display: none !important;
+}
+
+.display-inline {
+    display: inline !important;
+} */

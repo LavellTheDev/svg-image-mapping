@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title></title>
+  </head>
+  <body>
+    <h2>Image Mapping Testing</h2>
+    <h4>Testing SVG and Image Map with Coordinates</h4>
+    <div class="container">
+
+      <?xml version="1.0" encoding="utf-8"?>
+      <!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      	 viewBox="0 0 551.04 275.04" style="enable-background:new 0 0 551.04 275.04;" xml:space="preserve">
+      <!-- <style type="text/css">
+      	.st0{opacity:0;fill:#FFFFFF;}
+      </style> -->
+      <image style="overflow:visible;" width="2296" height="1146" xlink:href="../../../../../../../../Users/lavell/Desktop/imagemap-test/finished-map.jpg"  transform="matrix(0.24 0 0 0.24 0 0)">
+      </image>
+      <g>
+        <a href="#?"><!--charlestown -->
+          <rect x="259.14" y="10.62"onclick="toggleCharles()"  class="st0 charlestown-toggle" width="80.21" height="22.74"/>
+        </a>
+        <a href="#?"><!-- cambridge -->
+          <rect x="83.56" y="75.04" onclick="toggleCambridge()" class="st0 cambridge-toggle" width="73.89" height="20.84"/>
+        </a>
+
+        <a href="#?"><!--westend -->
+          <rect x="251.56" y="95.88"  onclick="toggleWestEnd()"class="st0 westend-toggle" width="67.58" height="18.95"/>
+        </a>
+        <a href="#?"><!--eastboston -->
+          <rect x="446.72" y="48.51"  onclick="toggleEastBoston()"class="st0 eastboston-toggle" width="70.74" height="20.84"/>
+        </a>
+        <a href="#?"><!--northend -->
+          <rect x="324.83" y="85.46"  onclick="toggleNorthEnd()"class="st0 northend-toggle" width="57.47" height="19.89"/>
+        </a>
+        <a href="#?"><!--beaconhill -->
+          <rect x="239.56" y="134.4"  onclick="toggleBeaconHill()"class="st0 beaconhill-toggle" width="76.42" height="18.32"/>
+        </a>
+        <a href="#?"><!--downtown -->
+          <rect x="320.83" y="133.4" onclick="toggleDowntown()" class="st0 downtown-toggle" width="61.26" height="22.74"/>
+        </a>
+        <a href="#?"><!--backbay -->
+          <rect x="233.25" y="161.56" onclick="toggleBackBay()" class="st0 backbay-toggle" width="66" height="22.74"/>
+        </a>
+        <a href="#?"><!--leatherdistrict -->
+          <rect x="310.93" y="161.56" onclick="toggleLeatherDistrict()" class="st0 leatherdistrict-toggle" width="85.26" height="22.74"/>
+        </a>
+        <a href="#?"><!--fenway -->
+          <rect x="165.04" y="207.04" onclick="toggleFenway()" class="st0 fenway-toggle" width="53.68" height="25.89"/>
+        </a>
+        <a href="#?"><!--southend -->
+          <rect x="255.98" y="201.35" onclick="toggleSoutEnd()" class="st0 southend-toggle" width="63.16" height="21.47"/>
+        </a>
+        <a href="#?"><!--seaport -->
+          <rect x="390.51" y="197.56" onclick="toggleSeaport()" class="st0 seaport-toggle" width="50.53" height="17.68"/>
+        </a>
+        <a href="#?"><!--jp -->
+          <rect x="92.4" y="249.35" onclick="toggleJamaicaPlain()" class="st0 jp-toggle" width="87.16" height="22.11"/>
+        </a>
+        <a href="#?"><!--roxbury -->
+          <rect x="233.25" y="241.14" onclick="toggleRoxbury()" class="st0 roxbury-toggle" width="58.11" height="19.26"/>
+        </a>
+        <a href="#?"><!--southboston -->
+          <rect x="367.14" y="227.25" onclick="toggleSouthBoston()" class="st0 southboston-toggle" width="73.89" height="22.11"/>
+        </a>
+        <a href="#?"><!--dorchester -->
+          <rect x="358.93" y="260.4" onclick="toggleDorchester()" class="st0 dorchester-toggle" width="67.58" height="14.64"/>
+        </a>
+      </g>
+      <!-- <g>
+        <img onclick="" class="mapCards hidden" id="backbayCard" src="cards/backbayCard.png" alt="back bay" usemap="#mapCardX">
+        <img class="mapCards hidden clickableImage" id="beaconhillCard" src="cards/beaconhillCard.png" alt="beacon hill" usemap="#mapCardX">
+      	<img class="mapCards hidden clickableImage" id="charlestownCard" src="cards/charlestownCard.png" alt="charlestown" usemap="#mapCardX">
+        <img class="mapCards hidden clickableImage" id="cambridgeCard" src="cards/cambridgeCard.png" alt="cambridge" usemap="#mapCardX">
+        <img class="mapCards hidden clickableImage" id="downtownCard" src="cards/downtownCard.png" alt="downtown" usemap="#mapCardX">
+        <img class="mapCards hidden clickableImage" id="dorchesterCard" src="cards/dorchesterCard.png" alt="dorchester" usemap="#mapCardX">
+  			<img class="mapCards hidden clickableImage" id="eastbostonCard" src="cards/eastbostonCard.png" alt="east boston" usemap="#mapCardX">
+  			<img class="mapCards hidden clickableImage" id="fenwayCard" src="cards/fenwayCard.png" alt="fenway" usemap="#mapCardX">
+  			<img class="mapCards hidden clickableImage" id="jamaicaplainCard" src="cards/jamaicaplainCard.png" alt="jamaica plain"usemap="#mapCardX">
+  			<img class="mapCards hidden clickableImage" id="leatherdistrictCard" src="cards/leatherdistrictCard.png" alt="leather district" usemap="#mapCardX">
+  			<img class="mapCards hidden clickableImage" id="northendCard" src="cards/northendCard.png" alt="north end" usemap="#mapCardX">
+        <img class="mapCards hidden clickableImage" id="roxburyCard" src="cards/roxburyCard.png" alt="roxbury" usemap="#mapCardX">
+        <img class="mapCards hidden clickableImage" id="seaportCard" src="cards/seaportCard.png" alt="seaport" usemap="#mapCardX">
+        <img class="mapCards hidden clickableImage" id="southBostonCard" src="cards/southBostonCard.png" alt="south boston" usemap="#mapCardX">
+        <img class="mapCards hidden clickableImage" id="southEndCard" src="cards/southEndCard.png" alt="south end" usemap="#mapCardX">
+        <img class="mapCards hidden clickableImage" id="westEndCard" src="cards/westEndCard.png" alt="west end" usemap="#mapCardX">
+      </g> -->
+      </svg>
+
+
+    </div>
+  </body>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</html>
