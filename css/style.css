@@ -21,9 +21,12 @@ a{
   width: 30%;
   z-index: 100;
 }
-/* .hidden{
+.hidden{
   display: none;
-} */
+}
+.visible{
+
+}
 .st0{
   opacity: 0;
   fill: #ffffff;
