@@ -23,6 +23,7 @@ a{
 }
 .hidden{
   display: none;
+
 }
 .visible{
 
@@ -31,6 +32,13 @@ a{
   opacity: 0;
   fill: #ffffff;
 }
+
+
+
+
+
+
+
 /* .charlestown-toggle{
   opacity: 0.5;
   fill: #00ffff;
