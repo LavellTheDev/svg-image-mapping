@@ -20,6 +20,9 @@
       <image style="overflow:visible;" width="2296" height="1146" xlink:href="../../../../../../../../Users/lavell/Desktop/imagemap-test/finished-map.jpg"  transform="matrix(0.24 0 0 0.24 0 0)">
       </image>
       <g>
+        <a href="#?"><!--backbay -->
+          <rect x="233.25" y="161.56" onclick="toggleBackBay()" class="st0 backbay-toggle" width="66" height="22.74"/>
+        </a>
         <a href="#?"><!--beaconhill -->
           <rect x="239.56" y="134.4"  onclick="toggleBeaconHill()"class="st0 beaconhill-toggle" width="76.42" height="18.32"/>
         </a>
@@ -43,9 +46,6 @@
         </a>
         <a href="#?"><!--downtown -->
           <rect x="320.83" y="133.4" onclick="toggleDowntown()" class="st0 downtown-toggle" width="61.26" height="22.74"/>
-        </a>
-        <a href="#?"><!--backbay -->
-          <rect x="233.25" y="161.56" onclick="toggleBackBay()" class="st0 backbay-toggle" width="66" height="22.74"/>
         </a>
         <a href="#?"><!--leatherdistrict -->
           <rect x="310.93" y="161.56" onclick="toggleLeatherDistrict()" class="st0 leatherdistrict-toggle" width="85.26" height="22.74"/>
@@ -76,8 +76,8 @@
       <!--IGNORE ALL FROM Line 27 - 76-->
 
 
-      <!-- <div onclick="this.className ='hidden'" class="jsTest"><img class="mapCards" id="backbayCard" src="cards/backbayCard.png" alt="back bay" usemap="#mapCardX"></div> -->
-      <img onclick="this.className = 'hidden'" class="mapCards clickableImage" id="beaconhillCard" src="cards/beaconhillCard.png" alt="beacon hill" usemap="#mapCardX">
+      <img onclick="toggleBackBay()" class="mapCards hidden" id="backbayCard" src="cards/backbayCard.png" alt="back bay" usemap="#mapCardX"></div>
+      <img  onclick="toggleBeaconHill()" class="mapCards hidden" id="beaconhillCard" src="cards/beaconhillCard.png" alt="beacon hill" usemap="#mapCardX">
       <!-- <img class="mapCards hidden clickableImage" id="charlestownCard" src="cards/charlestownCard.png" alt="charlestown" usemap="#mapCardX">
       <img class="mapCards hidden clickableImage" id="cambridgeCard" src="cards/cambridgeCard.png" alt="cambridge" usemap="#mapCardX">
       <img class="mapCards hidden clickableImage" id="downtownCard" src="cards/downtownCard.png" alt="downtown" usemap="#mapCardX">

@@ -1,13 +1,21 @@
-var hideImages = document.querySelectorAll('.clickableImage');
+// var hideImages = document.querySelectorAll('.clickableImage');
 
- hideImages[0].classList.add('hidden');
+ // hideImages[0].classList.add('hidden');
+
+ function toggleBackBay(){
+   var x = document.getElementById('backbayCard');
+   if (x.style.display === "none") {
+     x.style.display = "block"
+   }else{
+     x.style.display = "none";
+   }
+ }
 
 function toggleBeaconHill(){
   var x = document.getElementById('beaconhillCard');
   if (x.style.display === "none") {
-    x.style.display = "inline"
+    x.style.display = "block"
   }else{
     x.style.display = "none";
   }
-  console.log('toggleBeacon')
 }
